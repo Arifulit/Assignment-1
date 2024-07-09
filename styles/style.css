@@ -4,6 +4,7 @@
 
 
 body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -72,3 +73,92 @@ margin-bottom: 10px;
 margin-top: 50px;
 
 }
+
+.featured-image-container{
+    border: 2px solid red;
+    width: 946px;
+    height: 1233px;
+    margin: 0 auto;
+
+
+}
+
+.featured-title-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+
+}
+.featured-title-container h1{
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+}
+
+.featured-title-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-section-container{
+ border: 2px solid green;
+ width: 90%;
+height: 336px;
+margin: 0 auto;
+
+
+
+}
+
+
+.banner-text-container{
+width: 50%;
+height: 240px;
+display: flex;
+ flex-direction: column;
+ justify-content: center;
+align-items: center;
+
+}
+
+
+.banner-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner-text-container h2 {
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+  }
+  .banner-text-container p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .banner-text-container button {
+    width: 120px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    margin-right: 306px;
+  }
+
+  
