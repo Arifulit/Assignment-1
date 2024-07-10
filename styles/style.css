@@ -232,7 +232,7 @@ font-weight: 800;
      height: 462px;
     display: flex;
     gap: 24px;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
 #skill1{
 width: 364px;
@@ -256,6 +256,9 @@ background: rgba(255, 223, 0, 0.05);
 }
 
 .need-support{
+  border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
   /* border: 2px solid blue; */
   width: 1140px;
 height: 313px;
@@ -311,7 +314,7 @@ font-weight: 700;
   width: 100px;
   height: 40px;
   margin-left: 5px;
-  font-weight:600
+  font-weight:600;
   
   
  border: none;
@@ -320,14 +323,15 @@ background-color: rgb(255, 255, 255);
 
 }
 
-.vedio{
-  width: 1140px;
+.vedio-container iframe{
+  width: 1076px;
   height: 550px;
+  border-radius: 16px;
 
 
 }
-.vedio-content
-{
+.vedio-container{
+
 width: 1140px;
 height: 777px;
 
