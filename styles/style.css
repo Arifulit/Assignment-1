@@ -16,7 +16,7 @@ height: 652px;
 margin: 0 auto;
 
 
-background-image: url(/assets/Hero-bg.png);
+background-image: url(../assets/Hero-bg.png);
 background-position:center ;
 background-size: cover;
  background-repeat: no-repeat;
@@ -35,9 +35,9 @@ width: 998px;
 height: 310px;
 margin: 0 auto;
 /* Auto layout */
-text-align: center;
+
 display: flex;
-flex-direction: column;
+
 justify-content: flex-start;
 align-items: center;
 margin-bottom: 20px;
